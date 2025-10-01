@@ -1,4 +1,4 @@
-# 1. getString and printString
+1. getString and printString
 class StringClass:
     def __init__(self):
         self.s = ""
@@ -10,7 +10,7 @@ class StringClass:
         print(self.s.upper())
 
 
-# 2. Shape и Square
+2. Shape и Square
 class Shape:
     def area(self):
         return 0
@@ -24,7 +24,7 @@ class Square(Shape):
         return self.length ** 2
 
 
-# 3. Rectangle
+3. Rectangle
 class Rectangle(Shape):
     def __init__(self, length, width):
         self.length = length
@@ -34,7 +34,7 @@ class Rectangle(Shape):
         return self.length * self.width
 
 
-# 4. Point
+4. Point
 import math
 
 class Point:
@@ -53,7 +53,7 @@ class Point:
         return math.sqrt((self.x - other.x) ** 2 + (self.y - other.y) ** 2)
 
 
-# 5. Bank Account
+5. Bank Account
 class Account:
     def __init__(self, owner, balance=0):
         self.owner = owner
