@@ -1,4 +1,4 @@
-6. Filter prime numbers using filter + lambda
+ Filter prime numbers using filter + lambda
 def is_prime(n):
     if n < 2:
         return False
@@ -12,17 +12,17 @@ primes = list(filter(lambda x: is_prime(x), nums))
 print(primes)
 
 
-7. Convert grams to ounces
+ Convert grams to ounces
 def grams_to_ounces(grams):
     return grams * 28.3495231
 
 
-8. Fahrenheit to Celsius
+ Fahrenheit to Celsius
 def fahrenheit_to_celsius(F):
     return (5 / 9) * (F - 32)
 
 
-9. Chickens and rabbits puzzle
+ Chickens and rabbits puzzle
 def solve(numheads, numlegs):
     for chickens in range(numheads + 1):
         rabbits = numheads - chickens
@@ -31,24 +31,24 @@ def solve(numheads, numlegs):
     return None
 
 
-10. Filter primes in a list
+ Filter primes in a list
 def filter_prime(numbers):
     return [n for n in numbers if is_prime(n)]
 
 
-11. String permutations
+ String permutations
 from itertools import permutations
 
 def string_permutations(s):
     return [''.join(p) for p in permutations(s)]
 
 
-12. Reverse words in a sentence
+ Reverse words in a sentence
 def reverse_sentence(s):
     return ' '.join(s.split()[::-1])
 
 
-13. Check if list has 33
+ Check if list has 33
 def has_33(nums):
     for i in range(len(nums) - 1):
         if nums[i] == nums[i + 1] == 3:
@@ -56,7 +56,7 @@ def has_33(nums):
     return False
 
 
-14. Check if list contains 007 in order
+ Check if list contains 007 in order
 def spy_game(nums):
     code = [0, 0, 7]
     for n in nums:
@@ -67,12 +67,12 @@ def spy_game(nums):
     return False
 
 
-15. Volume of a sphere
+ Volume of a sphere
 def sphere_volume(r):
     return (4/3) * math.pi * r**3
 
 
-16. Unique elements from list
+ Unique elements from list
 def unique_list(lst):
     res = []
     for i in lst:
@@ -81,19 +81,19 @@ def unique_list(lst):
     return res
 
 
-17. Palindrome check
+ Palindrome check
 def is_palindrome(s):
     s = s.replace(" ", "").lower()
     return s == s[::-1]
 
 
-18. Histogram
+ Histogram
 def histogram(lst):
     for n in lst:
         print('*' * n)
 
 
-19. Guess the number game
+ Guess the number game
 import random
 
 def guess_game():
