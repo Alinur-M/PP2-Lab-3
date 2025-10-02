@@ -2,19 +2,33 @@
 
 movies = [
     {"name": "Skibidi Destruction", "imdb": 7.0, "category": "Thriller"},
+
     {"name": "Team Fortress Classic", "imdb": 6.3, "category": "Action"},
-    {"name": "Dark Knight", "imdb": 9.0, "category": "Adventure"},
-    {"name": "iphone 19", "imdb": 8.0, "category": "Drama"},
-    {"name": "The 9th may", "imdb": 6.2, "category": "Romance"},
-    {"name": "TempleOS", "imdb": 7.4, "category": "Romance"},
+
+    {"name": "Skibidi", "imdb": 9.0, "category": "Horror"},
+
+    {"name": "iphone 19", "imdb": 8.0, "category": "Horror"},
+
+    {"name": "The 9th may", "imdb": 6.2, "category": "War"},
+
+    {"name": "TempleOS", "imdb": 7.4, "category": "Horror"},
+
     {"name": "I love Trains", "imdb": 6.0, "category": "Romance"},
+
     {"name": "Shrek is love, Shrek is life", "imdb": 5.4, "category": "Romance"},
+
     {"name": "9 The Film", "imdb": 3.2, "category": "War"},
-    {"name": "Fixing Good", "imdb": 4.0, "category": "Crime"},
+
+    {"name": "Fixing Good", "imdb": 4.0, "category": "Comedy"},
+
     {"name": "My name is Kozha", "imdb": 7.2, "category": "Comedy"},
+
     {"name": "Crime and Punishment", "imdb": 9.2, "category": "Suspense"},
-    {"name": "Virtue and Reward", "imdb": 7.0, "category": "Suspense"},
+
+    {"name": "Virtue and Reward", "imdb": 7.0, "category": "Comedy"},
+
     {"name": "Principles of Programming 2 Exam", "imdb": 4.2, "category": "Thriller"},
+
     {"name": "Shrek is love, Shrek is life 2", "imdb": 7.2, "category": "Romance"}
 ]
 
